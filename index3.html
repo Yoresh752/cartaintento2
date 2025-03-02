@@ -5,7 +5,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
-<link rel="icon" href="./midias/envelope.png">
+<link rel="icon" href="./medios/envelope.png">
 <head>
 <title>TE AMOO❤️</title>
 
@@ -18,7 +18,7 @@
 --bingkai: 20px;
 --gaya-font: 'Ubuntu', sans-serif;
 }
-body{background-image: url("./midias/fundo1.jpg");
+body{background-image: url("./medios/fundo1.jpg");
 background-repeat: no-repeat;
 background-size: 110% 110%;animation:none;
 transition:all .3s ease;}
@@ -91,7 +91,7 @@ p{opacity:0;color:var(--warna-teks);font-size:18px;font-weight:700;line-height:1
 <body><div id="bodyblur"></div>
 
    <div id='Content'>
-   <!-- Foto Atas --><div><img id="fotoatas" src="./midias/figu1.gif" onClick="finalakhir();this.onclick=null;"/></div>
+   <!-- Foto Atas --><div><img id="fotoatas" src="./medios/figu1.gif" onClick="finalakhir();this.onclick=null;"/></div>
    <div><blockquote id='bq'>
    <p id="kalimat">...</p>
    </blockquote></div>
@@ -100,7 +100,7 @@ p{opacity:0;color:var(--warna-teks);font-size:18px;font-weight:700;line-height:1
    </div>
 
 <script>
-  function showDiv() {setTimeout(setel,500);setTimeout(gantikata,600);setTimeout(gantikata,1600);setTimeout(gantikata,5200);setTimeout(gantikata,6000);setTimeout(kpemb,100);document.getElementById('Content').style = "opacity:1;margin-top:4vh;animation:kont 5s infinite;";document.querySelector("body").style.animation = "fanim 8s ease infinite";} 
+  function showDiv() {setTimeout(setel,500);setTimeout(cambiartexto,600);setTimeout(cambiartexto,1600);setTimeout(cambiartexto,5200);setTimeout(cambiartexto,6000);setTimeout(kpemb,100);document.getElementById('Content').style = "opacity:1;margin-top:4vh;animation:kont 5s infinite;";document.querySelector("body").style.animation = "fanim 8s ease infinite";} 
   function kpemb() {bq.style = "opacity:1;visibility:visible;margin-top:20px";}
   function tombol(){contTom.style="margin-top:50px;opacity:1;transform: scale(1);";ftom=1;} ftom=0; 
   function fakhiran(){document.getElementById("akhiran").style = "display:inline-flex";}
@@ -127,7 +127,7 @@ p{opacity:0;color:var(--warna-teks);font-size:18px;font-weight:700;line-height:1
   function showpalingakhir(){idketiga.style = "font-weight:700;opacity:1;font-size:16px;margin-top:20px;animation:rto .6s infinite alternate;";setTimeout(tombol,1000);}
   
   function tfkata(){fkata+=1;}
-  fkata=1;function gantikata(){
+  fkata=1;function cambiartexto(){
                  if(fkata==1){otomatis();kalimat.innerHTML = katasatu;}
                  if(fkata==2){otomatis();kalimat.innerHTML = katadua;}
                  if(fkata==3){otomatis();kalimat.innerHTML = katatiga;}
@@ -145,7 +145,7 @@ p{opacity:0;color:var(--warna-teks);font-size:18px;font-weight:700;line-height:1
       }
       
       async function pertama(){
-         audio = new Audio('./midias/musica3.mp3');
+         audio = new Audio('./medios/musica3.mp3');
          
          katasatu = "Yo te amo❤️";
          katadua = "❤️Y quiero que este amor dure para siempre❤️";

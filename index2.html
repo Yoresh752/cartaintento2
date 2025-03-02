@@ -6,7 +6,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
-<link rel="icon" href="./midias/envelope.png">
+<link rel="icon" href="./medios/envelope.png">
 <head>
 <title>Una simple carta de amor❤️</title>
 <style>
@@ -17,7 +17,7 @@
 --bingkai: 20px;
 --gaya-font: 'Ubuntu', sans-serif;
 }
-body{background-image: url("./midias/fundo1.jpg");background-repeat: no-repeat;background-size: 110% 110%;animation:none;transition:all .3s ease;}
+body{background-image: url("./medios/fundo1.jpg");background-repeat: no-repeat;background-size: 110% 110%;animation:none;transition:all .3s ease;}
 @keyframes fanim {0% {background-position: 0% 0%;}25% {background-position: 100% 100%;} 50% {background-position: 0% 100%;} 75% {background-position: 50% 50%;} 100% {background-position: 0% 0%;}}
 body{background-color:#101010;font-family:var(--gaya-font);padding: 25px;-webkit-user-select: none; -ms-user-select: none; user-select: none;} a{text-decoration:none;}
 body::before{content:"\00A9  TE AMO MUCHO, MI ÁNGEL";color:white;opacity:.3;font-size:2vw;position:fixed;bottom:25px;left:25px;z-index:2}
@@ -114,16 +114,16 @@ p{opacity:0;color:var(--warna-teks);font-size:18px;font-weight:700;line-height:1
   if(aa==katadelapan.length){kalimat.innerHTML = katadelapan + emot;setTimeout(tombol,1000);}}
   function showpalingakhir(){idketiga.style = "font-weight:700;opacity:1;font-size:16px;margin-top:20px;animation:rto .6s infinite alternate;";setTimeout(tombol,1000);}
   
-  function pergantian(){setTimeout(gantikata,500);setTimeout(gantikata,2300);setTimeout(gantikata,3500);setTimeout(gantikata,6000);setTimeout(gantikata,7000);setTimeout(gantikata,8300);setTimeout(gantikata,9999);}
-  function tfkata(){fkata+=1;} function bersihkan(){kalimat.innerHTML = "";fototiga.style="display:none";fotoempat.style="display:inline-flex";}
-  fkata=1;function gantikata(){
+  function pergantian(){setTimeout(cambiartexto,500);setTimeout(cambiartexto,2300);setTimeout(cambiartexto,3500);setTimeout(cambiartexto,6000);setTimeout(cambiartexto,7000);setTimeout(cambiartexto,8300);setTimeout(cambiartexto,9999);}
+  function tfkata(){fkata+=1;} function limpiartexto(){kalimat.innerHTML = "";fototiga.style="display:none";fotoempat.style="display:inline-flex";}
+  fkata=1;function cambiartexto(){
                  if(fkata==1){otomatis();kalimat.innerHTML = katasatu;}
                  if(fkata==2){otomatis();kalimat.innerHTML = katadua;}
                  if(fkata==3){otomatis();kalimat.innerHTML = katatiga;fotosatu.style="display:none";fotodua.style="display:inline-flex";}
                  if(fkata==4){otomatis();kalimat.innerHTML = kataempat;} 
                  if(fkata==5){otomatis();kalimat.innerHTML = katalima;} 
                  if(fkata==6){otomatis();kalimat.innerHTML = kataenam;fotodua.style="display:none";fototiga.style="display:inline-flex";}
-                 if(fkata==7){otomatis();kalimat.innerHTML = katatujuh;setTimeout(bersihkan,1700);setTimeout(ngetik,1750)}
+                 if(fkata==7){otomatis();kalimat.innerHTML = katatujuh;setTimeout(limpiartexto,1700);setTimeout(ngetik,1750)}
                  setTimeout(tfkata, 300);
   }
 </script> 
@@ -132,12 +132,12 @@ p{opacity:0;color:var(--warna-teks);font-size:18px;font-weight:700;line-height:1
        
 
          function pertama(){
-         audio = new Audio('./midias/musica1.mp3');
+         audio = new Audio('./medios/musica1.mp3');
          
-         gambar1 = "./midias/figu6.gif";
-         gambar2 = "./midias/figu8.gif";
-         gambar3 = "./midias/figu8.gif";
-         gambar4 = "./midias/figu5.gif";
+         gambar1 = "./medios/figu6.gif";
+         gambar2 = "./medios/figu8.gif";
+         gambar3 = "./medios/figu8.gif";
+         gambar4 = "./medios/figu5.gif";
          
          katasatu = "Te amo a ti,❤️";
 katadua = "Apenas,";

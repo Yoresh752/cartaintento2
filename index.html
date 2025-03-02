@@ -7,7 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js">
 </script><script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
-<link rel="icon" href="./midias/envelope.png">
+<link rel="icon" href="./medios/envelope.png">
 <link href="https://Blog.feeldream.repl.co/style.css" rel="stylesheet" type="text/css" />
 <head>
 <title>PARA DECIR QUE TE AMO</title>
@@ -90,28 +90,28 @@ p{color:var(--warna-teks);font-size:16px;font-weight:400;line-height:1.4em;margi
 <body>
 	
    <!-- Stiker untuk Popup --><div id="pesanstiker">
-		<img id="stiker1" src="./midias/figu8.gif"/>
-		<img id="stiker2" src="./midias/figu2.gif"/>
-		<img id="stiker3" src="./midias/figu1.gif"/> 
-		<img id="stiker4" src="./midias/figu4.gif"/>
-    <img id="stiker5" src="./midias/figu5.gif"/>
-    <img id="stiker6" src="./midias/teste.gif"/>
+		<img id="stiker1" src="./medios/figu8.gif"/>
+		<img id="stiker2" src="./medios/figu2.gif"/>
+		<img id="stiker3" src="./medios/figu1.gif"/> 
+		<img id="stiker4" src="./medios/figu4.gif"/>
+    <img id="stiker5" src="./medios/figu5.gif"/>
+    <img id="stiker6" src="./medios/teste.gif"/>
 	</div>
 	
    <audio> id="linkmp3" src= </audio>
    
    <div id="bodyblur">
-><img src="./midias/fundo1.jpg" id="wallpaper" width="100%" height="100%"/><div id="beneranblur"></div>
+><img src="./medios/fundo1.jpg" id="wallpaper" width="100%" height="100%"/><div id="beneranblur"></div>
    </div>
 
    <div id='Content'>
    	
      <div id="suratin" onClick="memulai();audio.play();">
-   <img src="./midias/envelope.png"/>
+   <img src="./medios/envelope.png"/>
      </div>
      <p id="ket">HAZ CLICK EN LA CARTA AMOR!</p>
    
-     <div><img src="./midias/teste.gif" id="fotoakhir"/></div>
+     <div><img src="./medios/teste.gif" id="fotoakhir"/></div>
      <div><blockquote id='bq'>
        <p id="kalimat"></p>
        <p id="kalimatb"></p>
@@ -138,7 +138,7 @@ p{color:var(--warna-teks);font-size:16px;font-weight:400;line-height:1.4em;margi
   function kpemb() {bodyblur.style="opacity:.7;animation:none";beneranblur.style="-webkit-backdrop-filter:blur(5px); backdrop-filter:blur(5px)";wallpaper.style="transform: scale(1.8)";suratin.style="display:none";ket.style="display:none";fotoakhir.style="display:inline-flex;";setTimeout(ftmuncul,100);Content.style = "opacity:1;margin-top:2vh;";bq.style = "opacity:1;visibility:visible;margin-top:5px";setTimeout(ngetik,500)}
   function ftmuncul(){fotoakhir.style.transform="scale(1)";fotoakhir.style.opacity="1";}
   function tombol(){Tombol.style="margin-top:15px;opacity:1;transform: scale(1);";Bn.style="margin:12px 0 12px 12px";ftom=1;} ftom=0; function fakhiran(){document.getElementById("akhiran").style = "display:inline-flex";}
-  const swalst = Swal.mixin({timer: 2500, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageWidth: 100, imageHeight: 100,}); audio = new Audio('./midias/musica2.mp3');audio.play();;const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageWidth: 1000, imageHeight: 1000,}); 
+  const swalst = Swal.mixin({timer: 2500, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageWidth: 100, imageHeight: 100,}); audio = new Audio('./medios/musica2.mp3');audio.play();;const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageWidth: 1000, imageHeight: 1000,}); 
   const style = document.createElement('style'); 
   var today = new Date();
   var dd = String(today.getDate()).padStart(2, '0');
